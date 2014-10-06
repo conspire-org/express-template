@@ -1,0 +1,124 @@
+{
+  "title": "Person",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "Name"
+    },
+    "photo": {
+      "type": "string",
+      "title": "Photo URL",
+      "format": "url",
+      "links": [
+        {
+          "rel": "view",
+          "href": "{{self}}"
+        }
+      ]
+    },
+    "social_profiles": {
+      "type": "array",
+      "title": "Social Profiles",
+      "items": {
+        "type": "object",
+        "title": "Social Profile",
+        "properties": {
+          "type": {
+            "type": "string",
+            "title": "Type",
+            "enum": [
+              "angellist",
+              "blogger",
+              "crunchbase",
+              "dribble",
+              "facebook",
+              "flickr",
+              "foursquare",
+              "github",
+              "googleplus",
+              "linkedin",
+              "picasa",
+              "quora",
+              "skype",
+              "stackexchange",
+              "stackoverflow",
+              "tumblr",
+              "twitter",
+              "vimeo",
+              "wordpress",
+              "youtube"
+            ]
+          },
+          "username": {
+            "type": "string",
+            "title": "Username"
+          },
+          "url": {
+            "type": "string",
+            "title": "URL",
+            "format": "url"
+          }
+        }
+      }
+    },
+    "jobs": {
+      "type": "array",
+      "title": "Jobs",
+      "items": {
+        "type": "object",
+        "title": "Job",
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Company or Organization"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "start_date": {
+            "title": "Start Date",
+            "type": "object",
+            "properties": {
+              "month": {
+                "type": "integer",
+                "title": "Month",
+                "enum": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
+              },
+              "year": {
+                "type": "integer",
+                "title": "Year",
+                "pattern": "^[0-9]{4}$"
+              }
+            }
+          },
+          "end_date": {
+            "title": "End Date",
+            "type": "object",
+            "properties": {
+              "month": {
+                "type": "integer",
+                "title": "Month",
+                "enum": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
+              },
+              "year": {
+                "type": "integer",
+                "title": "Year",
+                "pattern": "^[0-9]{4}$"
+              }
+            }
+          }
+        }
+      }
+    },
+    "keywords": {
+      "type": "array",
+      "title": "Keywords",
+      "items": {
+        "type": "string",
+        "title": "Keyword"
+      }
+    }
+  }
+}

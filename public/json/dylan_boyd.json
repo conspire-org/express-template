@@ -1,0 +1,166 @@
+{
+  "name": "Dylan Boyd",
+  "photo": "https:\/\/s3.amazonaws.com\/conspire-profile-cache\/dylan_boyd.jpg",
+  "social_profiles": [
+    {
+      "type": "gravatar",
+      "username": "dtboyd",
+      "url": "http:\/\/gravatar.com\/dtboyd"
+    },
+    {
+      "type": "pinterest",
+      "username": "dylantboyd",
+      "url": "http:\/\/pinterest.com\/dylantboyd\/"
+    },
+    {
+      "type": "twitter",
+      "username": "dtboyd",
+      "url": "https:\/\/twitter.com\/dtboyd"
+    },
+    {
+      "type": "facebook",
+      "username": "dylan.boyd",
+      "url": "https:\/\/www.facebook.com\/dylan.boyd"
+    },
+    {
+      "type": "angellist",
+      "username": "dylan-boyd",
+      "url": "https:\/\/angel.co\/dylan-boyd"
+    },
+    {
+      "type": "linkedin",
+      "username": "dtboyd",
+      "url": "https:\/\/www.linkedin.com\/in\/dtboyd"
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Managing Director",
+      "name": "Nike+ Accelerator Powered by Techstars",
+      "start_date": {
+        "month": 7,
+        "year": 2013
+      }
+    },
+    {
+      "start_date": {
+        "month": 2,
+        "year": 2011
+      },
+      "title": "VP of Growth",
+      "name": "Urban Airship",
+      "end_date": {
+        "month": 7,
+        "year": 2012
+      }
+    },
+    {
+      "start_date": {
+        "month": 6,
+        "year": 2008
+      },
+      "title": "Project Leader, Non Profit - Agassi Foundation",
+      "name": "Email Experience Council",
+      "end_date": {
+        "month": 6,
+        "year": 2009
+      }
+    },
+    {
+      "start_date": {
+        "month": 1,
+        "year": 2007
+      },
+      "title": "Programs Chair",
+      "name": "Portland Advertising Federation",
+      "end_date": {
+        "month": 1,
+        "year": 2010
+      }
+    },
+    {
+      "start_date": {
+        "month": 6,
+        "year": 2003
+      },
+      "title": "VP of Sales and Strategy",
+      "name": "eROI",
+      "end_date": {
+        "month": 1,
+        "year": 2011
+      }
+    },
+    {
+      "start_date": {
+        "month": 2,
+        "year": 201
+      },
+      "title": "Director of E-Business Development",
+      "name": "Sonus Inc.",
+      "end_date": {
+        "month": 6,
+        "year": 2003
+      }
+    },
+    {
+      "start_date": {
+        "month": 10,
+        "year": 2000
+      },
+      "title": "Director of Business Development - Broadband",
+      "name": "Scottish Power - OnCorp",
+      "end_date": {
+        "month": 2,
+        "year": 2001
+      }
+    },
+    {
+      "start_date": {
+        "month": 3,
+        "year": 1999
+      },
+      "title": "Director of Business Development",
+      "name": "Utour.com",
+      "end_date": {
+        "month": 10,
+        "year": 2000
+      }
+    },
+    {
+      "start_date": {
+        "month": 1,
+        "year": 1996
+      },
+      "title": "Director of E-Business Development and eMarketing",
+      "name": "Hasson Company",
+      "end_date": {
+        "month": 3,
+        "year": 1999
+      }
+    },
+    {
+      "title": "Advisor",
+      "name": "CrowdTangle",
+      "start_date": {
+        "month": 7,
+        "year": 2013
+      }
+    }
+  ],
+  "keywords": [
+    "business development",
+    "telecom",
+    "social",
+    "android",
+    "Technology",
+    "mobile",
+    "iOS",
+    "sales",
+    "Email Marketing",
+    "Portland",
+    "Social Media",
+    "marketing",
+    "apps",
+    "Marketing"
+  ]
+}
